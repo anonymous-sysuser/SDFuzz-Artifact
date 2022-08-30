@@ -1,0 +1,27 @@
+###################
+# Joern-specifics #
+###################
+
+project/project
+project/target
+target
+.idea/
+tests/smoke-test-repos
+tests/**/node_modules
+tests/**/package-lock.json
+tests/**/package.json
+joern-cli/frontends/js2cpg
+joern-cli.zip
+joern-server.zip
+cpg.bin.zip
+cpg.bin
+ast-for-funcs.json
+cfg-for-funcs.json
+pdg-for-funcs.json
+joern-cli/workspace
+/workspace
+.bloop
+/.bsp
+/gnupg-*
+/joern-cli/${sys:LOG_DIR}/
+*.txt
